@@ -1,0 +1,29 @@
+PROGRAMMING PARADIGM
+
+Introduction:
+Programming paradigm is a way and style in which computer programs are written and organised to solve a problem.
+
+Types of programming paradigm
+- imperative programming
+- procedural programming
+- functional programming
+- declarative programming
+- object oriented programming
+
+Imperative programming:
+This paradigm involves given the computer a specific step to solving a problem
+
+Procedural programming:
+This paradigm is a derivative of the imperative. But here, the use of functions to hold each instruction  in the code is used
+
+Functional programming:
+this paradigm involves  the use of functions. functions is used here and can be stored in variables , returned from other
+functions and so on. Here, functions are used to seperate responsibilities. However, the imperative is still found here, but 
+then the function contains code that does not modify any thing in the global scope of the code.
+
+Declarative programming:
+this paradigm involves abstracting away, i.e hiding away the steps to a problem (complexity of the instruction and steps) from 
+the developer. and bringing the code to human thinking and language. Like in js, the use of reduce, map, filter, find.
+
+Object Oriented Programming: 
+this paradigm involves seperating responsibilities and concerns into entities (which are called object classes). 

@@ -8,3 +8,4 @@ function filterNums() {
 
 	console.log("result ", result);
 }
+filterNums();

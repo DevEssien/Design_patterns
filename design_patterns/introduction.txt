@@ -1,0 +1,12 @@
+DESIGN PATTERNS
+
+Introduction
+Design patterns provides a structured approach for solving challenges and promote best practices in software architecture
+
+Types of Design patterns
+- Singleton pattern
+
+Singleton Pattern:
+Ensures that a class has only one instance and provides a global point of access to it. The Singleton pattern is useful for 
+situations where only one instance of a class should exist.
+

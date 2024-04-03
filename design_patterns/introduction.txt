@@ -5,8 +5,11 @@ Design patterns provides a structured approach for solving challenges and promot
 
 Types of Design patterns
 - Singleton pattern
+- Factory pattern
 
 Singleton Pattern:
 Ensures that a class has only one instance and provides a global point of access to it. The Singleton pattern is useful for 
 situations where only one instance of a class should exist.
 
+Factory pattern:
+This pattern offers you a way to create objects where the exact class the object is not specified that is to be created.

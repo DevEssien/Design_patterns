@@ -6,6 +6,7 @@ Design patterns provides a structured approach for solving challenges and promot
 Types of Design patterns
 - Singleton pattern
 - Factory pattern
+- Adapter pattern
 
 Singleton Pattern:
 Ensures that a class has only one instance and provides a global point of access to it. The Singleton pattern is useful for 
@@ -13,3 +14,11 @@ situations where only one instance of a class should exist.
 
 Factory pattern:
 This pattern offers you a way to create objects where the exact class the object is not specified that is to be created.
+The Factory pattern is useful when there is complex object creation logic that should not be coupled to client code.
+
+Adapter pattern:
+The Adapter Pattern is a design pattern that allows you to bridge the gap between incompatible interfaces or classes, enabling 
+them to work together seamlessly. 
+in other words, Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+ This pattern is particularly useful in JavaScript development, as it promotes code reusability 
+and simplifies the integration of third-party libraries or APIs.

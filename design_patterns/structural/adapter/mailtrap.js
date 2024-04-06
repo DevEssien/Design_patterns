@@ -1,8 +1,8 @@
 const { MailtrapClient } = require("mailtrap");
 const { EmailAdapter } = require("./emailAdapter");
 
-const TOKEN = "343a2dd645961ac6332d57fe3509e516";
-const ENDPOINT = "https://send.api.mailtrap.io/";
+const TOKEN = "";
+const ENDPOINT = "";
 
 class MailTrapSender extends EmailAdapter {
 	constructor(config) {
@@ -41,6 +41,3 @@ class MailTrapSender extends EmailAdapter {
 
 const mailtrapSender = new MailTrapSender({ ENDPOINT, TOKEN });
 module.exports = mailtrapSender;
-// const email = new Email("essienemma300dev@gmail.com", "VaultTran otp", "your otp is 123456");
-
-// emailAdapter.send(email);

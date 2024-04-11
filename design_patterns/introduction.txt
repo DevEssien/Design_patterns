@@ -7,6 +7,7 @@ Types of Design patterns
 - Singleton pattern
 - Factory pattern
 - Adapter pattern
+- Observer pattern
 
 Singleton Pattern:
 Ensures that a class has only one instance and provides a global point of access to it. The Singleton pattern is useful for 
@@ -22,3 +23,8 @@ them to work together seamlessly.
 in other words, Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
  This pattern is particularly useful in JavaScript development, as it promotes code reusability 
 and simplifies the integration of third-party libraries or APIs.
+
+Observer pattern:
+The observer pattern lets you define a subscription mechanism to notify multiple objects about any events that happen to the 
+object they’re observing. The Observer pattern is useful for event handling and asynchronous workflows. This pattern is used in real-time 
+projects and chat applications.

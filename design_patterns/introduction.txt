@@ -8,6 +8,7 @@ Types of Design patterns
 - Factory pattern
 - Adapter pattern
 - Observer pattern
+- Decorator pattern
 
 Singleton Pattern:
 Ensures that a class has only one instance and provides a global point of access to it. The Singleton pattern is useful for 
@@ -28,3 +29,6 @@ Observer pattern:
 The observer pattern lets you define a subscription mechanism to notify multiple objects about any events that happen to the 
 object they’re observing. The Observer pattern is useful for event handling and asynchronous workflows. This pattern is used in real-time 
 projects and chat applications.
+
+Decorator pattern:
+The decorator pattern dynamically adds new functionality to objects without affecting other instances.

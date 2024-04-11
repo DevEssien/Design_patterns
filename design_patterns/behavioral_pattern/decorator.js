@@ -1,3 +1,7 @@
+/**
+ * examples are authenticated routes, logging wrappers, caching decorators
+ */
+
 class Car {
 	constructor() {
 		this.price = 2000000;

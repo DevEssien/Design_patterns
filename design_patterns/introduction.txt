@@ -9,6 +9,7 @@ Types of Design patterns
 - Adapter pattern
 - Observer pattern
 - Decorator pattern
+- Dependency Injection Pattern
 
 Singleton Pattern:
 Ensures that a class has only one instance and provides a global point of access to it. The Singleton pattern is useful for 
@@ -31,4 +32,9 @@ object they’re observing. The Observer pattern is useful for event handling an
 projects and chat applications.
 
 Decorator pattern:
-The decorator pattern dynamically adds new functionality to objects without affecting other instances.
+The decorator pattern dynamically adds new functionality to objects without affecting other instances. This allows extending behavior 
+dynamically at runtime. The Decorator pattern is useful for abstraction and not having to subclass just to add small features.
+
+Dependency Injection pattern
+Dependency injection is a pattern where modules or classes receive dependencies from an external source rather than creating them internally. 
+It helps with decoupling, testing, and reusability.

@@ -10,6 +10,7 @@ Types of Design patterns
 - Observer pattern
 - Decorator pattern
 - Dependency Injection Pattern
+- Strategy pattern
 
 Singleton Pattern:
 Ensures that a class has only one instance and provides a global point of access to it. The Singleton pattern is useful for 
@@ -38,3 +39,7 @@ dynamically at runtime. The Decorator pattern is useful for abstraction and not 
 Dependency Injection pattern
 Dependency injection is a pattern where modules or classes receive dependencies from an external source rather than creating them internally. 
 It helps with decoupling, testing, and reusability.
+
+Strategy Pattern
+Strategy pattern is a behavioral software design pattern that enables selecting an algorithm ( instructions ) at runtime. in order words,
+it allows the behavour of object to be selected at runtime

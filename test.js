@@ -1,34 +1,12 @@
-const { MailtrapClient } = require("mailtrap");
+const obj1 = { a: "rat", b: "dog", c: "cat", d: "null" };
+const obj2 = { a: "monkey", b: "dog", c: 2 };
 
-const TOKEN = "343a2dd645961ac6332d57fe3509e516";
-const ENDPOINT = "https://send.api.mailtrap.io/";
-
-async function sendMail(email, subject, text) {
-	try {
-		const client = new MailtrapClient({ endpoint: ENDPOINT, token: TOKEN });
-
-		const sender = {
-			email: "mailtrap@demomailtrap.com",
-			name: "Mailtrap Test",
-		};
-		const recipients = [
-			{
-				email: email,
-			},
-		];
-
-		const response = await client.send({
-			from: sender,
-			to: recipients,
-			subject: subject ?? "Interactro Message",
-			text: text,
-			category: "Integration Test",
-		});
-		console.log("response ", response);
-		return response;
-	} catch (error) {
-		console.log("error ", error);
+const s = {};
+for (const key in obj2) {
+	console.log(s[key], obj1[key]);
+	if (!obj2.hasOwnProperty(key) && !(typeof obj1[key] === typeof obj2[key])) {
+		console.log("passed");
 	}
+	s[key] = obj1[key];
 }
-
-sendMail("essienemma300dev@gmail.com", "test", "testing again now");
+console.log("s ", s);
